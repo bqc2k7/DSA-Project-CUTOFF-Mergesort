@@ -1,0 +1,21 @@
+== Ngày giờ thực hiện ==
+Tue Nov 17 2026 (Local time)
+
+== Cấu hình phần cứng (Hardware) ==
+- CPU: 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+  + Số nhân vật lý (Cores): 6
+  + Số luồng logic (Threads): 12
+  + Base clock: 2.70 GHz, Turbo boost lên tới 4.50 GHz
+  + Bộ nhớ đệm: L1 Cache 480 KB, L2 Cache 7.5 MB, L3 Cache 12 MB SmartCache
+- RAM: 16 GB DDR4 (3200 MHz)
+- Ổ cứng lưu trữ: NVMe SSD PCIe
+
+== Hệ điều hành & Môi trường thực thi (OS & Runtime) ==
+- Hệ điều hành: Microsoft Windows 11 Home Single Language 64-bit
+- Java Runtime: Java(TM) SE Runtime Environment (build 26+35-2893)
+- Java HotSpot(TM) 64-Bit Server VM (build 26+35-2893, mixed mode, sharing)
+- Python: Python 3.14.4 (thư viện: pandas, matplotlib, numpy, scipy)
+- Git: git version 2.53.0.windows.2
+
+== Tham số JVM khi đo thí nghiệm ==
+-XX:+UseSerialGC -Xms1g -Xmx1g -Dfile.encoding=UTF-8

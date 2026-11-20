@@ -1,0 +1,19 @@
+# Byte-compiled / JVM files
+*.class
+bin/
+build/
+*.jar
+!algs4.jar
+
+# Large textbooks / lecture slides (Avoid GitHub 50MB-100MB bloat)
+Algorithhms_4th_Edition_by_Robert_Sedgewick_Kevin_Wayne.pdf
+Cấu trúc dữ liệu giải thuật - Bài giảng.pdf
+
+# IDE configuration
+.idea/
+*.iml
+.vscode/
+
+# Temporary test outputs
+results/test_run.csv
+results/raw_test_*.csv
